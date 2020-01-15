@@ -1,13 +1,18 @@
 class Author
   attr_accessor :name
 
+<<<<<<< HEAD
   @@authors = []
+=======
+  @@all_posts = []
+>>>>>>> fdc6069e8a0174cc42e22a80702e9f68a9f1983a
 
   def initialize(name)
     @name = name
   end
 
   def posts
+<<<<<<< HEAD
     Post.all
   end
 
@@ -26,5 +31,10 @@ class Author
   end
 
 
+=======
+    @@all_posts
+  end
+
+>>>>>>> fdc6069e8a0174cc42e22a80702e9f68a9f1983a
 
 end
